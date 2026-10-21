@@ -82,6 +82,15 @@ public class HRMS {
             else System.out.println("Email not found!");
         }catch(Exception e){ System.out.println(e.getMessage()); }
     }
+
+        // Feature: Student Search - Added in feature/student_search branch
+    static void searchStudent(){
+        System.out.println("--- Student Search ---");
+        System.out.print("Enter student name to search: ");
+        String name = sc.nextLine();
+        System.out.println("Searching for: " + name + " ... Feature in progress!");
+    }
+
     static void dashboard(String orgName){
         while(true){
             System.out.println("\n=== "+orgName+" Dashboard ===");
